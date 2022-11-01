@@ -5,25 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <title>Calc</title>
 </head>
 <body>
-    <div class="container">
-        <form class="form">
-            <div class="input_group">
-                <input type="number" id="input1" class="input">
-                <input type="number" id="input2" class="input">
-                = 
-                <input type="number" id="result" class="input">
-            </div>
-            <div class="button_group">
-                <button id="plus" class="calc_button">+</button>
-                <button id="minus" class="calc_button">-</button>
-                <button id="multi" class="calc_button">*</button>
-                <button id="divide" class="calc_button">/</button>
-            </div>
-        </form>
-    </div>
+    <header>
+        <div class="container header_main">
+            <h1>Ого, да это же калькулятор!</h1>
+            <h2>Ничего себе...</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container calc_main">
+            <form class="form">
+                <div class="input_group">
+                    <div class="description">Введите первое число:</div>
+                    <input type="number" id="input1" class="input">
+                    <div class="description">Введите второе число:</div>
+                    <input type="number" id="input2" class="input">
+                    <div class="description">Здесь появится ответ:</div>
+                    <input type="number" id="result" class="input">
+                    <div class="description">Выберите действие:</div>
+                </div>
+                <div class="button_group">
+                    <button id="plus" class="calc_button">+</button>
+                    <button id="minus" class="calc_button">-</button>
+                    <button id="multi" class="calc_button">x</button>
+                    <button id="divide" class="calc_button">÷</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="calc.js"></script>
 </body>
 </html>
