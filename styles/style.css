@@ -45,7 +45,7 @@ h2{
     align-items: center;
     margin-top: 60px;
     width: 520px;
-    height: 645px;
+    height: 1020px;
     border-radius: 35px;
     background-color: #5a5c68;
 }
@@ -77,7 +77,20 @@ h2{
 .button_group{
     width: 440px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.number_button{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #111112;
+    font-size: 60px;
+    margin-bottom: 13px;
 }
 
 .calc_button{
@@ -86,6 +99,6 @@ h2{
     border: none;
     border-radius: 25px;
     color: white;
-    background-color: #bcc0c7;
+    background-color: #858d9b;
     font-size: 60px;
 }
